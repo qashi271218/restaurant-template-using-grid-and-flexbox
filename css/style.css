@@ -1,0 +1,27 @@
+@import "../include/variable.css";
+@import "../include/base.css";
+@import "../include/typography.css";
+@import "../include/layout.css";
+@import "../include/header.css";
+@import "../include/about.css";
+@import "../include/book-a-table.css";
+@import "../include/chefs.css";
+@import "../include/contact.css";
+@import "../include/events.css";
+@import "../include/footer.css";
+@import "../include/gallery.css";
+@import "../include/menu.css";
+@import "../include/specials.css";
+@import "../include/testimonial.css";
+@import "../include/why-us.css";
+@import "../include/mediaquery-header.css";
+@import "../include/mediaquery-about.css";
+@import "../include/mediaquery-why-us.css";
+@import "../include/mediaquery-menu.css";
+@import "../include/mediaquery-specials.css";
+@import "../include/mediaquery-events.css";
+@import "../include/mediaquery-booking.css";
+
+
+
+

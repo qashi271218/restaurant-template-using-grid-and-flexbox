@@ -1,0 +1,24 @@
+.sub-heading
+{
+text-transform:uppercase;
+font-size: 1.6rem;
+color: #aaaaaa;
+}
+.sub-heading:after
+{
+content: "";
+    width: 14rem;
+    height: 2px;
+    color: white;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+.main-section-heading
+{
+text-transform: uppercase;
+font-size: 3rem;
+color: var(--color-primary);
+margin-bottom: 1rem;
+}

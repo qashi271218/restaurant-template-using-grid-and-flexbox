@@ -1,0 +1,57 @@
+.why-us
+{
+	/* grid-row: 3/4;
+	grid-column: center-start/center-end; */
+	grid-area: why;
+	background: #0c0b09;
+	padding: 6rem;
+	color: white;
+}
+.card-body
+{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+grid-gap: 2rem;
+}
+.card
+{
+box-shadow: 0 2px 5px rgba(0,0,0,1);
+padding: 4rem;
+transition: all .4s;
+}
+.card-text
+{
+	transition: all .9s;
+}
+.card-number
+{
+font-size: 3rem;
+color: var(--color-primary);
+}
+.card-heading
+{
+font-size: 3rem;
+}
+.card-paragraph
+{
+font-size: 1.6rem;
+color: #aaaaaa;
+}
+
+.card:hover
+{
+background-color: #cda45e;
+}
+
+.card:hover .card-text
+{
+	transform: translateY(-20%);
+}
+.why-us .card:hover .card-text .card-number
+{
+	color: white;
+}
+.why-us .card:hover .card-text .card-paragraph
+{
+	color: white;
+}

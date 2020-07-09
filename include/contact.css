@@ -1,0 +1,7 @@
+.contact
+{
+/* 	grid-row: 11/12;
+	grid-column: center-start/center-end; */
+	grid-area: contact;
+	display: none;
+}

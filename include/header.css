@@ -1,0 +1,229 @@
+.header
+{
+	/* grid-row: 1/2;
+	grid-column: full-start/full-end; */
+	grid-area: header;
+background-image: linear-gradient(to right bottom,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../img/hero-bg.jpg);
+
+    background-size: cover;
+    padding: 0;
+position: relative;
+}
+
+ 
+/* .header:before
+{
+	content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 3.4rem;
+    left: 0;
+    right: 0;
+} */
+.top{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.top-left
+{
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-column-gap: 1rem;
+}
+.top-bar-left
+{
+	display: flex;
+}
+.top-icon
+{
+	font-size: 1.6rem;
+	color: var(--color-primary);
+}
+.top-bar-left-text
+{
+	font-size: 1.6rem;
+	color:white;
+	font-weight: bold;
+}
+.top-bar-right
+{
+	justify-self: end;
+}
+.top-bar-right-1
+{
+	color: var(--color-primary);
+	font-size: 1.6rem;
+}
+.top-bar-right-2
+{
+	color: #ffffff;
+	font-size: 1.6rem;
+}
+.oblique
+{
+	color: white;
+}
+.logo
+{
+	text-align: center;
+	font-size: 3rem;
+    color: #fff;
+}
+.button
+{
+	border: 2px solid var(--color-primary-dark);
+	border-radius: 2.3rem;
+	padding: 1rem 4rem;
+		text-decoration: none;
+	font-size: 1.4rem;
+	color: #fff;
+    transition: all .6s;
+}
+.button:hover
+{
+	background-color: var(--color-primary);
+	color: white !important;
+}
+.active
+{
+	color: var(--color-primary) !important;
+} 
+
+
+
+.nav
+{
+    background: rgba(12, 11, 9, 0.6);
+    border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+    display: grid;
+    grid-template-columns: 34% 1fr;
+    align-items: center;
+    margin-top: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0; 
+    /* z-index: 2000; */
+}
+/* sticky nav */
+.fixed-nav .nav {
+  position: fixed;
+  top:-1rem;
+  z-index: 1;
+}
+/* end sticky nav */
+.nav-links
+{
+	display: grid;
+	grid-template-columns: repeat(9,max-content);
+	grid-column-gap: 3rem;
+	padding: 2rem 0;
+}
+.nav-links li
+{
+	list-style: none;
+}
+.nav-links a:link,
+.nav-links a:visited
+{
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: #fff;
+    transition: all .6s;
+}
+
+.nav-links a:hover
+{
+	color: var(--color-primary);
+}
+.burger
+{
+	display: none;
+	cursor: pointer;
+}
+.burger div
+{
+width: 25px;
+height: 2px;
+background-color: rgba(226,226,226);
+margin: 5px;
+}
+
+
+@keyframes navLinkFade
+{
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to {
+			opacity: 1;
+		transform: translateX(0px);	
+	}
+}
+.toggle .line1
+{
+transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2
+{
+	opacity: 0;
+}
+.toggle .line3
+{
+	transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.main-intro
+{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	position: absolute;
+    top: 45%;
+    left: 9%;
+    animation-duration: .8s;
+    animation-delay: .2s;
+
+}
+.main-heading
+{
+	color: #fff;
+	font-size: 5rem;
+	font-weight: bold;
+}
+.main-heading-2
+{
+	color: var(--color-primary);
+}
+.main-paragraph
+{
+	font-size: 2.2rem;
+	margin-bottom: 2rem;
+	color: #fff;
+}
+
+.main-intro a:last-child
+{
+	margin-left: 2rem;
+} 
+.main-icon
+{
+	font-size: 5rem;
+	color: var(--color-primary-dark);
+}
+.video
+{
+	justify-self: end;
+	animation-iteration-count:infinite;
+}
+.play-btn
+{
+	width: 94px;
+    height: 94px;
+    background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}

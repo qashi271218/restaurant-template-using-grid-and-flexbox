@@ -1,0 +1,34 @@
+@media(max-width:626px)
+{
+.about
+{
+	grid-template-columns: 1fr;
+	
+
+}
+.about-img
+{
+	max-width: 100%;
+	margin-left: 0;
+}
+.about-heading
+{
+	font-size: 1.5rem;
+}
+.about-paragraph
+{
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	text-align: justify;
+}
+.icon-text
+{
+	font-size: 1.2rem;
+	text-align: justify;
+}
+.about-paragraph-2
+{
+	font-size: 1.2rem;
+	text-align: justify;
+}
+}

@@ -1,0 +1,10 @@
+.testimonials
+{
+	/* grid-row: 8/9;
+	grid-column: center-start/center-end; */
+	grid-area: testi;
+/* background-color: #1a1814; */
+	padding: 6rem;
+	display: none;
+}
+

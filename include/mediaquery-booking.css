@@ -1,0 +1,32 @@
+@media(max-width:704px)
+{
+	.query-form
+	{
+		grid-template-rows: repeat(10,1fr);
+		grid-template-columns: 1fr;
+        padding: 0 3rem;
+	}
+	.form-control-message
+{
+	grid-row: 7/8;
+	grid-column: 1/-1;
+}
+.form-control-submit
+{
+	grid-row: 8/9;
+	width: 100%; 
+}
+.book-a-table
+{
+	padding: 0;
+}
+}
+
+@media(max-width:376px)
+{
+	.query-form
+	{
+		grid-gap: 0rem;
+		padding: 0 6rem;
+	}
+}

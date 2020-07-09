@@ -1,0 +1,23 @@
+@media(max-width:992px)
+{
+	 .vertical-tab-content
+	{
+		flex-direction: column;
+	} 
+	.specials-tab
+	{
+		grid-template-columns: 1fr;
+	}
+	.vertical-img-section
+	{
+		order:-1;
+	}
+	.vertical-img
+	{
+		max-width: 50%;
+	}
+	.tabcontent
+	{
+		padding: 0;
+	}
+}

@@ -1,0 +1,36 @@
+@media(max-width:992px)
+{
+	.all{
+	 grid-template-columns: 1fr; 
+	padding: 0 !important;
+}
+.ui-widget-header
+{
+	width: 100% !important; 
+}
+.start
+{
+	grid-template-columns: 1fr;
+	padding: 0;
+}
+}
+
+@media(max-width:500px)
+{
+.menu
+{
+	padding: 0;
+}
+}
+
+@media(max-width:374px)
+{
+	.ui-tabs .ui-tabs-nav li
+	{
+		font-size: 1.2rem;
+	}
+	.img-section p
+	{
+		font-size: 1.1rem;
+	}
+}

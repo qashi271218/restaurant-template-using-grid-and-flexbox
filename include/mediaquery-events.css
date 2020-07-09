@@ -1,0 +1,16 @@
+@media(max-width:500px)
+{
+	.slideshow-container { 
+     position: relative; 
+     margin: auto; 
+     padding: 0;
+}
+.events-img
+{
+	max-width: 66%;
+}
+.events
+{
+
+}
+}

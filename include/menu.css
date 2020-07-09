@@ -1,0 +1,80 @@
+.menu
+{
+	/* grid-row: 4/5;
+	grid-column: center-start/center-end; */
+	grid-area: menu;
+	background-color: #1a1814;
+	padding: 6rem;
+	color: white;
+}
+#tabs
+{
+	background:  #1a1814;
+	border: none;
+}
+.menu-img
+{
+	margin-right: 2rem;
+	float: left;
+max-width: 70px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+.all
+{
+	display: grid;
+	grid-template-rows: repeat(4,min-content);
+	  grid-template-columns: repeat(2,1fr); 
+	 /* grid-template-columns: repeat(auto-fit,minmax(25rem,1fr)); */
+	grid-row-gap: 5rem;
+	margin-top: 5rem;
+	padding-left: 14rem;
+}
+.img-section
+{
+/* 	display: flex;
+	justify-content: center; */
+}
+.img-section p
+{
+	font-size: 1.5rem;
+	align-self: center;
+	color: white;
+}
+.img-section span
+{
+	color: var(--color-primary);
+}
+#img-para
+{
+	color: rgba(255, 255, 255, 0.5);
+}
+.ui-widget-header
+{
+	width: 46%!important;
+	margin: 0 auto !important;
+}
+.ui-tabs .ui-tabs-nav
+{
+	border: none;
+	background: none;
+}
+.ui-tabs .ui-tabs-nav li
+{
+		border: none;
+	background: none;
+	font-size: 1.6rem;
+}
+.ui-tabs .ui-tabs-nav li a:focus
+{
+	outline: none !important;
+}
+.start
+{
+		display: grid;
+	grid-template-rows: repeat(2,min-content);
+	grid-template-columns: repeat(2,1fr);
+	grid-row-gap: 5rem;
+	margin-top: 5rem;
+	padding-left: 14rem;
+}

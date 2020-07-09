@@ -1,0 +1,24 @@
+.gallery
+{
+	/* grid-row: 9/10;
+	grid-column: full-start/full-end; */
+	grid-area: gallery;
+	background-color: #1a1814;
+	padding: 2rem;
+}
+.img-fluid
+{
+	max-width: 100%;
+	height: auto;
+	transition: all ease-in-out 0.4s;
+}
+.gallery-item
+{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(2,18.5vw);
+}
+ .img-fluid:hover
+{
+	transform: scale(1.05);
+} 
