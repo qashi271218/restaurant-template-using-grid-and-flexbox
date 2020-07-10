@@ -152,3 +152,16 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
     });
 });
+
+
+//gallery popup
+$(document).ready(function()
+{
+$('.gallery').magnificPopup({
+type:'image',
+delegate:'a',
+gallery: {
+enabled:true
+}
+}); 
+});

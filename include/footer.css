@@ -9,6 +9,7 @@
 	grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
 	grid-row-gap: 2rem;
 	color: white;
+    border-top: 2px solid #28251f;
 }
 .footer h3
 {
@@ -27,7 +28,9 @@ font-size: 1.7rem;
 .footer-social
 {
 	display: grid;
-	grid-template-columns: repeat(4,1fr);
+	/* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(4,min-content);
+    grid-column-gap: 2rem;
 }
 
 .footer h4
